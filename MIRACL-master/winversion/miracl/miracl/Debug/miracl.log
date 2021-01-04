@@ -1,0 +1,120 @@
+﻿빌드 시작: 2017-11-06 오후 3:24:05
+     1>2 노드의 "F:\Development\MIRACL-master\MIRACL-master\winversion\miracl\miracl\miracl.vcxproj" 프로젝트(Rebuild 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"F:\Development\MIRACL-master\MIRACL-master\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\source\mraes.c ..\..\..\source\mralloc.c ..\..\..\source\mrarth0.c ..\..\..\source\mrarth1.c ..\..\..\source\mrarth2.c ..\..\..\source\mrarth3.c ..\..\..\source\mrbits.c ..\..\..\source\mrbrick.c ..\..\..\source\mrbuild.c ..\..\..\source\mrcore.c ..\..\..\source\mrcrt.c ..\..\..\source\mrcurve.c ..\..\..\source\mrdouble.c ..\..\..\source\mrebrick.c ..\..\..\source\mrec2m.c ..\..\..\source\mrecn2.c ..\..\..\source\mrfast.c ..\..\..\source\mrflash.c ..\..\..\source\mrflsh1.c ..\..\..\source\mrflsh2.c ..\..\..\source\mrflsh3.c ..\..\..\source\mrflsh4.c ..\..\..\source\mrfpe.c ..\..\..\source\mrfrnd.c ..\..\..\source\mrgcd.c ..\..\..\source\mrgcm.c ..\..\..\source\mrgf2m.c ..\..\..\source\mrio1.c ..\..\..\source\mrio2.c ..\..\..\source\mrjack.c ..\..\..\source\mrlucas.c ..\..\..\source\mrmonty.c ..\..\..\source\mrmuldv.c ..\..\..\source\mrpi.c ..\..\..\source\mrpower.c ..\..\..\source\mrprime.c ..\..\..\source\mrrand.c ..\..\..\source\mrround.c ..\..\..\source\mrscrt.c ..\..\..\source\mrshs.c ..\..\..\source\mrshs256.c ..\..\..\source\mrshs512.c ..\..\..\source\mrsmall.c ..\..\..\source\mrsroot.c ..\..\..\source\mrstrong.c ..\..\..\source\mrxgcd.c ..\..\..\source\mrzzn2.c ..\..\..\source\mrzzn2b.c ..\..\..\source\mrzzn3.c ..\..\..\source\mrzzn4.c
+         mrzzn4.c
+         mrzzn3.c
+         mrzzn2b.c
+         mrzzn2.c
+         mrxgcd.c
+         mrstrong.c
+         mrsroot.c
+         mrsmall.c
+         mrshs512.c
+         mrshs256.c
+         mrshs.c
+         mrscrt.c
+         mrround.c
+         mrrand.c
+         mrprime.c
+         mrpower.c
+         mrpi.c
+         mrmuldv.c
+         mrmonty.c
+         mrlucas.c
+         코드를 생성하고 있습니다...
+         컴파일하고 있습니다...
+         mrjack.c
+         mrio2.c
+         mrio1.c
+         mrgf2m.c
+     1>f:\development\miracl-master\miracl-master\source\mrgf2m.c(382): warning C4101: 'k' :참조되지 않은 지역 변수입니다.
+     1>f:\development\miracl-master\miracl-master\source\mrgf2m.c(644): warning C4101: 'r' :참조되지 않은 지역 변수입니다.
+     1>f:\development\miracl-master\miracl-master\source\mrgf2m.c(644): warning C4101: 't' :참조되지 않은 지역 변수입니다.
+     1>f:\development\miracl-master\miracl-master\source\mrgf2m.c(643): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+         mrgcm.c
+         mrgcd.c
+         mrfrnd.c
+         mrfpe.c
+         mrflsh4.c
+         mrflsh3.c
+         mrflsh2.c
+         mrflsh1.c
+         mrflash.c
+         mrfast.c
+         mrecn2.c
+         mrec2m.c
+         mrebrick.c
+         mrdouble.c
+         mrcurve.c
+         mrcrt.c
+         코드를 생성하고 있습니다...
+         컴파일하고 있습니다...
+         mrcore.c
+         mrbuild.c
+         mrbrick.c
+         mrbits.c
+         mrarth3.c
+         mrarth2.c
+         mrarth1.c
+         mrarth0.c
+         mralloc.c
+         mraes.c
+         코드를 생성하고 있습니다...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"F:\Development\MIRACL-master\MIRACL-master\winversion\miracl\Debug\miracl.lib" /NOLOGO Debug\mraes.obj
+         Debug\mralloc.obj
+         Debug\mrarth0.obj
+         Debug\mrarth1.obj
+         Debug\mrarth2.obj
+         Debug\mrarth3.obj
+         Debug\mrbits.obj
+         Debug\mrbrick.obj
+         Debug\mrbuild.obj
+         Debug\mrcore.obj
+         Debug\mrcrt.obj
+         Debug\mrcurve.obj
+         Debug\mrdouble.obj
+         Debug\mrebrick.obj
+         Debug\mrec2m.obj
+         Debug\mrecn2.obj
+         Debug\mrfast.obj
+         Debug\mrflash.obj
+         Debug\mrflsh1.obj
+         Debug\mrflsh2.obj
+         Debug\mrflsh3.obj
+         Debug\mrflsh4.obj
+         Debug\mrfpe.obj
+         Debug\mrfrnd.obj
+         Debug\mrgcd.obj
+         Debug\mrgcm.obj
+         Debug\mrgf2m.obj
+         Debug\mrio1.obj
+         Debug\mrio2.obj
+         Debug\mrjack.obj
+         Debug\mrlucas.obj
+         Debug\mrmonty.obj
+         Debug\mrmuldv.obj
+         Debug\mrpi.obj
+         Debug\mrpower.obj
+         Debug\mrprime.obj
+         Debug\mrrand.obj
+         Debug\mrround.obj
+         Debug\mrscrt.obj
+         Debug\mrshs.obj
+         Debug\mrshs256.obj
+         Debug\mrshs512.obj
+         Debug\mrsmall.obj
+         Debug\mrsroot.obj
+         Debug\mrstrong.obj
+         Debug\mrxgcd.obj
+         Debug\mrzzn2.obj
+         Debug\mrzzn2b.obj
+         Debug\mrzzn3.obj
+         Debug\mrzzn4.obj
+         miracl.vcxproj -> F:\Development\MIRACL-master\MIRACL-master\winversion\miracl\Debug\miracl.lib
+     1>"F:\Development\MIRACL-master\MIRACL-master\winversion\miracl\miracl\miracl.vcxproj" 프로젝트를 빌드했습니다(Rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.98

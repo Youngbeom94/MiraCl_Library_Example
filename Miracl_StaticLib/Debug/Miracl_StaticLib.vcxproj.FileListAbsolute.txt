@@ -1,0 +1,2 @@
+C:\Users\YoungBeom Kim\source\repos\Miracl_StaticLib\Debug\Miracl_StaticLib.lib
+C:\Users\YoungBeom Kim\source\repos\Miracl_StaticLib\Debug\Miracl_StaticLib.pdb

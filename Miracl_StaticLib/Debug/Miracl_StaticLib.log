@@ -1,0 +1,63 @@
+﻿  pch.cpp
+  mraes.c
+  mralloc.c
+  mrarth0.c
+  mrarth1.c
+  mrarth2.c
+  mrarth3.c
+  mrbits.c
+  mrbrick.c
+  mrbuild.c
+  mrcore.c
+  mrcrt.c
+  mrcurve.c
+  mrdouble.c
+  mrebrick.c
+  mrec2m.c
+  mrecn2.c
+  mrfast.c
+  mrflash.c
+  mrflsh1.c
+  mrflsh2.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  mrflsh3.c
+  mrflsh4.c
+  mrfpe.c
+  mrfrnd.c
+  mrgcd.c
+  mrgcm.c
+  mrgf2m.c
+C:\Users\YoungBeom Kim\Desktop\MIRACL-master\source\mrgf2m.c(382,9): warning C4101: 'k' :참조되지 않은 지역 변수입니다.
+C:\Users\YoungBeom Kim\Desktop\MIRACL-master\source\mrgf2m.c(643,11): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+C:\Users\YoungBeom Kim\Desktop\MIRACL-master\source\mrgf2m.c(644,16): warning C4101: 't' :참조되지 않은 지역 변수입니다.
+C:\Users\YoungBeom Kim\Desktop\MIRACL-master\source\mrgf2m.c(644,18): warning C4101: 'r' :참조되지 않은 지역 변수입니다.
+  mrio1.c
+  mrio2.c
+  mrjack.c
+  mrlucas.c
+  mrmonty.c
+  mrmuldv.c
+  mrpi.c
+  mrpower.c
+  mrprime.c
+  mrrand.c
+  mrround.c
+  mrscrt.c
+  mrsha3.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  mrshs.c
+  mrshs256.c
+  mrshs512.c
+  mrsmall.c
+  mrsroot.c
+  mrstrong.c
+  mrxgcd.c
+  mrzzn2.c
+  mrzzn2b.c
+  mrzzn3.c
+  mrzzn4.c
+  코드를 생성하고 있습니다...
+  Miracl_StaticLib.cpp
+  Miracl_StaticLib.vcxproj -> C:\Users\YoungBeom Kim\source\repos\Miracl_StaticLib\Debug\Miracl_StaticLib.lib

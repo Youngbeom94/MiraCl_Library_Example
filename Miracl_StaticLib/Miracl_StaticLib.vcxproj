@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{85423f99-d3df-4fb4-abaf-6399334f18b9}</ProjectGuid>
+    <RootNamespace>MiraclStaticLib</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\Users\YoungBeom Kim\Desktop\MIRACL-master\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Desktop\MIRACL-master\include\miracl.h" />
+    <ClInclude Include="..\..\..\Desktop\MIRACL-master\include\mirdef.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mraes.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mralloc.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrarth0.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrarth1.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrarth2.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrarth3.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrbits.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrbrick.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrbuild.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrcore.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrcrt.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrcurve.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrdouble.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrebrick.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrec2m.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrecn2.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrfast.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrflash.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrflsh1.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrflsh2.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrflsh3.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrflsh4.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrfpe.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrfrnd.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrgcd.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrgcm.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrgf2m.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrio1.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrio2.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrjack.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrlucas.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrmonty.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrmuldv.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrpi.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrpower.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrprime.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrrand.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrround.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrscrt.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrsha3.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrshs.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrshs256.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrshs512.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrsmall.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrsroot.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrstrong.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrxgcd.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrzzn2.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrzzn2b.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrzzn3.c" />
+    <ClCompile Include="..\..\..\Desktop\MIRACL-master\source\mrzzn4.c" />
+    <ClCompile Include="Miracl_StaticLib.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
